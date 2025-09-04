@@ -1,0 +1,19 @@
+EBS-> elastic block storage
+
+in volume are two type : root volume like c drive
+other volume are : d,e drive
+
+:-if we attach volume for instance same availbility zone
+
+:-if we attach same volume to another instance in differnt availbility zone 
+create snapshot
+create volume
+
+:- if we attach same volume to other instance in differnt region 
+copy snapshot
+create volume
+
+:-while deleting the instance root volume is deleted but not external volume 
+
+
+practical create volume:-

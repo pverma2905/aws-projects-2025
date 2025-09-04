@@ -1,0 +1,52 @@
+->what is cloud??
+a network of internet-connected servers that store data and run applications, providing on-demand computing services like storage, software, and processing power
+
+
+->what is cloud computing??
+on-demand computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet, often with pay-as-you-go pricing
+
+->Types of cloud services??
+Iaas
+Paas
+Saas
+
+
+->what is Iaas??
+It provide blank infrasture only
+need to add
+os,middleware, runtime,data, application
+
+
+->what is Pass?
+it provide entire platform
+need to add
+Data, application
+
+->what is Saas??
+it provide complete application
+already deployed the application
+like gmail, one drive , google photos
+
+->Problem for saas??
+not any control
+
+->Deployment model of cloud??
+public cloud
+private cloud
+hybrid cloud
+community cloud
+multi cloud
+
+AWS is the example of public cloud
+
+->Private cloud ??
+with in organisation
+
+->hybrid cloud??
+b/w public and private
+
+->community cloud??
+multiple organisation come together
+
+
+

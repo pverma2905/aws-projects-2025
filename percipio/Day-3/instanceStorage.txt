@@ -1,0 +1,12 @@
+instance storage:- 
+
+storage associated in ec2
+
+
+it is faster then ebs
+
+
+when u want throughput/ caching
+
+
+

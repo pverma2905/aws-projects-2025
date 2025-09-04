@@ -1,0 +1,35 @@
+=>it is a platform as a service
+=>elastic beanstalk work on java, .net, ruby, php, python , nodejs, Go , Docker
+
+=> elastic beanstalk is free
+but we use resources loadbalancer, database it is chargable
+
+webserver server enviroment
+
+worker environment
+
+
+step1:-
+0)Application name:-zensar-app
+1)selectwebserver enviroment
+2)enviroment name=zensar-app-dev
+3)domain :- zensar
+4)select platform
+5)sample application
+6)single instance(free tier eligible)
+
+step2:-
+1)create role:-aws-beanstalk-service-role
+2)create ec2 role:-aws-elasticbeanstalk-ec2-role
+next
+
+step3:-
+1)default vpc
+2)default subnet
+
+step4:-
+
+step5:- 
+1)basic monitoring
+2)Managed platform updates disable
+

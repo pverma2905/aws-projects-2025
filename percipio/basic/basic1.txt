@@ -1,0 +1,29 @@
+Introduction to AWS:-
+what is AWS
+Why use AWS
+AWS services
+IAM
+
+compute services:-
+Ec2
+Lambda
+Elastic Beanstalk
+
+
+Storage services:-
+S3
+EBS
+EFS
+
+Network Service:-
+VPC
+Route53
+cloudFront
+
+Database service:-
+RDS
+Dynamodb
+redshift
+
+
+After AWS Cloud Practioner

@@ -1,0 +1,6 @@
+EFS:- Elastic file storage
+
+=>no of instance can talk to EFS
+=>but not ebs
+
+

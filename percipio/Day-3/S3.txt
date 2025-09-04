@@ -1,0 +1,21 @@
+=>S3(Simple Storage Service):- 
+=>it is object storage service
+=>object store in bucket
+
+=>in bucket object access through key
+
+->Bucket is like a folder
+
+->S3 is a global service
+
+->create a bucket in regional
+
+storage class:-
+1)standard- access in object millisecond      3 availbility zone 
+2)standard-IA- access a data once in month    3 availbility zone 
+3)One Zone-IA- access a data once in month    1 availbility zone 
+4)Glacier Instant Retrieval -  once a quarter with instant retrieval in milliseconds  - 3 availbility zone
+5)Glacier Flexible Retrieval (formerly Glacier)   -once a year with retrieval of minutes to hours
+6)Glacier Deep Archive
+
+

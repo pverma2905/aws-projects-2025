@@ -1,0 +1,14 @@
+suppose my application running on one mumbai region with two availbility zone 
+
+apSouth1a  it has differnt public ip
+apSouth1b  it has differnt public ip
+
+add elastic lazy loading on both instance
+
+use elastic lazy loading ip
+
+public ip external use only
+private ip internal communication only
+
+
+

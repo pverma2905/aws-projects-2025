@@ -1,0 +1,28 @@
+go to google and check aws global infrastrure
+
+Region:-38 region
+AZ:-120 zone
+Localzone:-43 Localzone
+wavalength: 31 wavalength zone
+point of presence: 700+
+
+Region is a collection of AZ
+
+maximum az in region is 6
+
+what is az?
+it is a data center
+
+what is region?
+it is a collection of region
+
+minimum az of in region ??
+2
+
+=>az consist of ??
+discreate data center
+
+# we deploy the appication for nearby customer region with at least 3 availibilty zone
+
+
+IAM:-

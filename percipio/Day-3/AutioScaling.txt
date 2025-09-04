@@ -1,0 +1,2 @@
+in autoscaling multiple instance can create dynamically
+on cpu load more than 75%

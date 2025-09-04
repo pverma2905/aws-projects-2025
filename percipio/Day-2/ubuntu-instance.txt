@@ -1,0 +1,53 @@
+Ec2(Iaas)
+step-1=ubuntu server
+step-2=select instantype :t2 micro
+step-3=create keypair aws-fundamental    (private key) pem file
+step-4=root volume 8gb ram
+step-5= storage gp
+step-6=security group(ssh 22)
+step-7=Launch instance
+
+ec2 instance connect:-
+click on connnect
+
+
+command:- 
+pwd
+who am i
+sudo apt-get update
+sudo apt-get install nginx
+copy public ip  open chrome
+
+
+allow inbound rule http and ipv4
+then hit again
+
+
+SSH Client:- 
+ step 1= open command prompt where have pem file
+ ssh -i "aws-fundamentals.pem" ubuntu@ec2-52-66-176-27.ap-south-1.compute.amazonaws.com  
+
+
+ #Once i stopped the instance my public ip is gone
+ again i click on start instance create a new public ip but private ip is not change
+
+ #If i dont want public ip is not change attach elastic ip
+ elastic ip under network and security
+ allocate elastic ip
+ associate elastic ip address
+ select our server and associate it
+
+ elastic for add associate
+ 
+ elastic for remove for deassociate
+ then realease elastic ip
+
+ all aws account are limited 5 elastic ip address
+
+ #if we reboot the instance same public ip
+
+ #if we click on terminate the instance volume is deleted
+ if i am not want delete the instance on volume is deleted in configure storage advanced delete on termination no select
+
+ #user data 
+ when we create a instance with action perform
