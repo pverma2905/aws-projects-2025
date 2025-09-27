@@ -1,0 +1,6 @@
+it is paas service
+it is severless model 
+ther we not create server
+it is regional service
+
+we pay how much request is hit

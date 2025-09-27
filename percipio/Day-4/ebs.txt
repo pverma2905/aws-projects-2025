@@ -1,0 +1,3 @@
+it store root volume, database, mysql 
+
+it store one ec3 instance

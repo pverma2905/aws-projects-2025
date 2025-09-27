@@ -1,0 +1,37 @@
+why should go for database service??
+=>mysql 5 we are using
+in mysql 8 is come in market so we upgrade
+
+=>maintain database up and runing
+
+=>backup
+
+=>software upgrade, patches,24/7 , multiple replica differnt az
+
+=>differnt type databases
+1)Relational databases - rds, amazon aurora
+2)nosql databases  - dynamodb, DocumentDB
+3)Graph databases  -  naptune
+
+4)warehouse service - redshift
+5)elasticCache- temporary database
+6)amazon keyspaces- serverles casandra
+7)amazon memory redis:- permammet storage
+8)Amazon Qldb:- leder database :- use in blockchain
+9)Amazon TimeStream:- it is used in stock
+
+
+
+two type of redshift:-
+1)OLTP:-ONLine trasaction processing- Banking
+2)OLAP:-Online analytics processing - huge data new mobile phone
+
+
+elatichache->take data from cache after sometime  cache data is removed
+it is two type
+1)redis chache: - it is permammet storage
+2)memcache  - temporary storage
+
+casandra:- it is columnary database
+
+

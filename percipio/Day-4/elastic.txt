@@ -1,0 +1,3 @@
+in per region maximum 5 elastic ip are allowed
+
+if i want more to raise request to aws

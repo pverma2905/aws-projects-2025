@@ -1,0 +1,11 @@
+1)create user
+
+2)assign role
+
+
+role is a collection of policies
+group is collection of role
+
+role ex:- developer, finance, admin
+
+Add MFA

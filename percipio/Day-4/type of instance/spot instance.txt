@@ -1,0 +1,1 @@
+if remaining server not use send to cheap cost .if another person want same instance with more price aws terminate the instaance in 2 minute

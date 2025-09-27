@@ -1,0 +1,8 @@
+it secure the data 
+(Data in transit) data in motion data transfered location over a private network or the internet
+
+(Data at rest)-> it safely stored in internal and external device
+
+-> transfer the data from one region to another region
+
+s3 store object, files, images, backups

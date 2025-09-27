@@ -1,0 +1,3 @@
+-:one file shareed acces to 100 of developer ex of efs
+
+-: shared to multiple ec2 instances
