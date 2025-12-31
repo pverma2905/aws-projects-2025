@@ -1,0 +1,55 @@
+1) launch template
+2)zen-launch-template
+3)quick start
+choose launch instance
+4)default option
+5)in network choose subnet and  az 
+6)last option we add script
+
+#!/bin/bash
+set -e
+yum update -y
+yum install -y httpd
+systemctl enable httpd
+systemctl start httpd
+cat <<EOF > /var/www/html/index.html
+<h1>Hello World From $(hostname -f)</h1>
+EOF
+
+
+7) create target group "No ec2 inside"
+8) create ALB
+9) create auto scaling group
+create asg
+choose launch template
+next
+maxium cpu 4
+choose 1-3 avilabilty zone 
+next
+attach to exissting loadbalancer
+existing loadbalancer target group
+
+ec2 healthcheck
+Turn on Elastic Load Balancing health check
+next
+next
+next
+next
+review
+
+
+
+scale in :- add ec2 instance dynamically 
+
+scale out :- remove ec2 instance dynamically
+
+min:1
+desired:5
+max:10
+pooling time:5 min application  down 
+
+click on auto scaling
+
+choose automatic scalling
+
+it is a horizontal scaling

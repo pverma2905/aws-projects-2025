@@ -1,0 +1,10 @@
+EC2 storage
+- EBS(Elastic Block Store)
+- EFS(Elastic File System)
+
+1)EBS:- it is a private file system
+through snapshot its possible
+performance wise EBS is better
+
+2)EFS:- it is a sharable file system
+less performance than EBS

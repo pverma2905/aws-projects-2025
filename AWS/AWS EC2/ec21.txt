@@ -1,0 +1,20 @@
+=>Choose region N.Vergenia
+=>create name of ec2
+=>choose defautlt amazon linux
+=>create keypair
+=>choose network setting allow http traffic
+=>go to advanced details user data optional
+
+#!/bin/bash
+set -e
+yum update -y
+yum install -y httpd
+systemctl enable httpd
+systemctl start httpd
+cat <<EOF > /var/www/html/index.html
+<h1>Hello World From $(hostname -f)</h1>
+EOF
+
+
+
+

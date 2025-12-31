@@ -1,0 +1,26 @@
+0) create 3 ec2 instance 
+instance 1 -< add code ec2-1
+instance 2 -< add code ec2-2
+instance 3 -< add code ec2-3
+
+
+
+1)create target group
+
+register target 
+
+instance3,4,5 include as pending below
+next
+create target group
+
+2)create load balancer
+application load balancer
+xen-demo-alb
+
+check all avilabilty zone
+
+select target froup
+
+create load balancer
+
+open dns name

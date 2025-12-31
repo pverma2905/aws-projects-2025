@@ -1,0 +1,28 @@
+
+
+Efs is a regional service
+
+1)create
+2)name=efs-1
+
+chose default option
+
+
+EFS states:-
+1)standard
+2)Infrequent Access
+3)Archive
+
+create ec2
+in network add subnet differnt
+in ec2 storage add shared file system
+
+inside run command
+sudo su
+ls /mnt/efs/fs1
+echo "Hello From EC2-3" >  /mnt/efs/fs1/hello.txt
+ls /mnt/efs/fs1
+cat /mnt/efs/fs1/hello.txt
+
+create same  ec2 instance4 also differnt subnet
+
