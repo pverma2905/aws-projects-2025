@@ -1,0 +1,23 @@
+Vpc(Virtual Private cloud)
+
+public, Private sevice are come under Vpc
+Ec2
+Database
+subnet
+
+create two subnet public subnet, Private subnet
+in public subnet  create ec2
+in Private subnet create rds
+create one internet gateway (IGW)
+route table 
+
+flow of the application
+IG->route table->public subnet ->private subnet
+
+
+step:-
+1)click on vpc
+2)create vpc
+3)vpc only
+4)zen-vpc
+5)10.0.0.0/24

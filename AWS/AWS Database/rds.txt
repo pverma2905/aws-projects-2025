@@ -1,0 +1,21 @@
+choose aurora and rds
+click on DB instance
+click on create database  + full configuration
+select mysql
+select template sandbox/ free tier
+DB Cluster indentifier name:- zen-db
+username:- root
+select self managed
+root12345
+root12345
+allocate statorage:- 20
+public access:- yes
+
+add az ny one
+
+
+
+open mysql
+connection name: aws-rds-db-con
+past hostname
+paste password

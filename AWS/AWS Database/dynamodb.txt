@@ -1,0 +1,18 @@
+nosql databases:-
+->document db
+ex- mongodb, couchdb
+
+->Graph DB
+ex- Neo4j, flockDB
+
+->Column orientes DB
+ex->hBase, Casandara, BigTable
+
+->Key Value DB
+ex- memcache, memcache db , Redis, voldemort, Dynamodb
+
+1)go to amazon document db
+2)in cluster configuration name:-zen-documentdb-cluster
+3)engine version:-5
+4)no of instance:- 2
+5)authentication username:-pranav
