@@ -6,14 +6,12 @@
 =>go to advanced details user data optional
 
 #!/bin/bash
-set -e
 yum update -y
 yum install -y httpd
-systemctl enable httpd
 systemctl start httpd
-cat <<EOF > /var/www/html/index.html
-<h1>Hello World From $(hostname -f)</h1>
-EOF
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
+
 
 
 

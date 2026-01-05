@@ -1,0 +1,83 @@
+IAM(identity And Access Management):-
+
+Login as root user:-
+responsible for payments
+it is individal/corporate
+
+user Group:-Macys 
+add permission:-
+-macys(Group)
+    -developers(Iam users)
+    -testers(Iam users)
+
+user Group:-Cisco
+add Permission:-
+-cisco(Group)
+    - developers(Iam users)
+    -testers(Iam users)
+
+Login as Iam user:-
+
+
+=>it is a global service
+
+create user:-
+1)name:-tom
+2)check Provide user access to the AWS Management Console - optional
+3)custom password
+4)password:-Tom@12345
+5)uncheck Users must create a new password at next sign-in - Recommended
+6)next
+7)create user
+share console url to tom
+
+=>add permission:-
+click on top
+click on add permission
+attach policies
+administrative access
+next
+add permission
+
+=>user group:- 
+name macys
+add permission:-ec2, rds
+add user same step 
+macys-user1
+Macys@12345
+
+macys-user2
+Macys@12345
+
+name cisco:- 
+add permission:s3
+
+cisco-user-1
+Cisco@12345
+
+
+=>Add user to group:-
+click on cisco user group, selected, click on user select the user
+
+=>policiy:-it is group of granted and deny permission 
+=>permission:-
+=>role:-it is Group of policies
+
+
+=>create Role:-
+1)aws service check
+2)choose a service:- elastic beanstalk
+3)next
+4)next
+5)name:-Beanstalk_role
+6)create role
+
+=>Account setting:=-
+Login:
+-with only password
+-with password + device code (mfa) Mandatory for root account
+
+
+=>Access Analyzer:-complete activite log we can check for iam user
+
+

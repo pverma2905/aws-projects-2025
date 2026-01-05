@@ -15,9 +15,102 @@ flow of the application
 IG->route table->public subnet ->private subnet
 
 
-step:-
+
+Note:- By defautlt all subnet are private
+
+create vpc step:-
 1)click on vpc
 2)create vpc
 3)vpc only
 4)zen-vpc
 5)10.0.0.0/24
+6)create vpc
+
+create subnet step:-
+1)create subnet
+2)select vpc id which u created
+3)name:- zen-public-subnet
+4)choose- az
+5)ipv4-10.0.0.0/28 
+6)create subnet
+
+create internet gateway:-
+1)name:-zen-igw
+2)created
+
+attach vpc to internet gateway
+1)click on action and select vpc
+2)attach internet gateway
+
+create ec2
+1)launch instance
+2)zen-demo-instance
+3)create key pair
+4)under network setting edit
+select our vpc
+select our suppnet
+assign public ip enable
+create security group
+under inbound->type all trafic
+5)advanced 
+add script
+
+create route table
+1)create route table
+2)name:- zen-route-table
+3)select zen-vpc
+
+I want my subnet is become public
+1)click on subnet association
+2)click on edit
+3)check zen-public-subnet
+4)save association
+5)click on routes beside subnet association
+6)edit routes
+7)edit route
+0.0.0.0/0
+select internet-gateway also select gate way id
+save changes
+
+
+under ec2
+security- we can manage inbound rule and outbound rule
+
+
+security:-
+1)security group:-it provide the security level for ec2
+2)network acl(Access cntrol list)-> it provide the security for subnet level
+
+create nacl:-
+1)create nacl
+2)name:-zen-nacl
+3)select vpc
+4)created
+
+click on newly nacl
+click subnet association
+edit subnet association
+check public subnet association
+save changes
+
+select nacl
+edit inbound rule
+rule number  type 
+100          all trafic  save changes
+
+
+create nat gateway:-
+if i hve private subnert under ec2 instance connect to internet (access a public service) introduce a nat gateway internet want from outside vpc  but it is outbound only
+
+
+vpc peering:- 
+multiple vpc allow called vpc peering
+
+direct connect:- suppose zensar inpremises data center and migrate to aws service called direct connect
+
+
+deleting:-
+first delete ec2
+then delete vpc
+
+
